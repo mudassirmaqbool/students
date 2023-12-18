@@ -1,0 +1,26 @@
+<?php
+
+namespace App\Http\Controllers;
+
+use App\Models\Registration;
+use Illuminate\Http\Request;
+
+class RegistrationController extends Controller
+{
+
+    public function index()
+    {
+        //
+    }
+
+
+    public function store(Request $request): \Illuminate\Http\JsonResponse
+    {
+        //
+    }
+
+    public function destroy(Registration $registration): \Illuminate\Http\JsonResponse
+    {
+        //
+    }
+}
